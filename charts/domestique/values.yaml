@@ -158,7 +158,7 @@ backup:
   # trying to match a version this chart cannot know.
   image:
     repository: postgres
-    tag: 16-alpine
+    tag: 18-alpine
 
   destination:
     # A PVC to dump into. Same container does the dump and prunes anything
