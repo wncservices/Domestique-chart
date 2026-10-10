@@ -405,7 +405,7 @@ basemapUpdate:
   # kubectl cp/exec transfer.
   copyImage:
     repository: alpine
-    tag: "3.22.2"
+    tag: "3.24.2"
   resources:
     requests:
       cpu: 250m
